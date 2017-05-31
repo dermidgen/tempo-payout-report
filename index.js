@@ -3,11 +3,12 @@ const config = require('dotenv').config().parsed
 const request = require('request')
 const moment = require('moment')
 const numeral = require('numeral')
+const readlineSync = require('readline-sync')
 
-const domain = config.DOMAIN
-const user = config.USER
+const domain = config.DOMAIN?config.DOMAIN:readlineSync.question('JIRA Domain? ')
+const user = config.USER?config.USER:readlineSync.question('JIRA Username? ')
 const username = user
-const pass = config.PASS
+const pass = config.PASS?config.PASS:readlineSync.question('JIRA Password? ', {hideEchoBack: true})
 const rate = Number(config.RATE)
 
 const api = request.defaults({
