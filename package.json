@@ -15,7 +15,8 @@
   "homepage": "https://github.com/lgomez/tempo-payout-report#readme",
   "scripts": {
     "install": "[ -f ./.env ] || cp ./.env.example ./.env",
-    "start": "node index.js"
+    "start": "node index.js",
+    "clean": "rm -rf ./node_modules && rm -f package-lock.json"
   },
   "keywords": [
     "jira",
