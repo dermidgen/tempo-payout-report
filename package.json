@@ -1,0 +1,29 @@
+{
+  "name": "reports",
+  "version": "0.0.0",
+  "description": "Quick payout report for Gun.io contractors",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lgomez/tempo-payout-report"
+  },
+  "author": "Luis Gomez <lgomez@gmail.com> (https://luis.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgomez/tempo-payout-report/issues"
+  },
+  "homepage": "https://github.com/lgomez/tempo-payout-report#readme",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "keywords": [
+    "jira",
+    "tempo"
+  ],
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "moment": "^2.18.1",
+    "numeral": "^2.0.6",
+    "request": "^2.81.0"
+  }
+}
