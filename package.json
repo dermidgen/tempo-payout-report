@@ -1,7 +1,7 @@
 {
   "name": "reports",
   "version": "0.0.0",
-  "description": "Quick payout report for Gun.io contractors",
+  "description": "Simple script to generate a payout report for users of Jira's Tempo plugin.",
   "main": "index.js",
   "repository": {
     "type": "git",
