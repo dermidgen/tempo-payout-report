@@ -14,7 +14,8 @@
   },
   "homepage": "https://github.com/lgomez/tempo-payout-report#readme",
   "scripts": {
-    "start": "node -r dotenv/config index.js"
+    "install": "[ -f ./.env ] || cp ./.env.example ./.env",
+    "start": "node index.js"
   },
   "keywords": [
     "jira",
