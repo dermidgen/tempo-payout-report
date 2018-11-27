@@ -15,16 +15,19 @@
   "homepage": "https://github.com/lgomez/tempo-payout-report#readme",
   "scripts": {
     "install": "[ -f ./.env ] || cp ./.env.example ./.env",
-    "start": "node index.js"
+    "start": "node index.js",
+    "clean": "rm -rf ./node_modules && rm -f package-lock.json"
   },
   "keywords": [
     "jira",
     "tempo"
   ],
   "dependencies": {
+    "columnify": "^1.5.4",
     "dotenv": "^4.0.0",
     "moment": "^2.18.1",
     "numeral": "^2.0.6",
+    "readline-sync": "^1.4.7",
     "request": "^2.81.0"
   }
 }

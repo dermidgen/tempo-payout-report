@@ -1,5 +1,5 @@
 # Jira/Tempo Payout Report
 
 1. Run `npm i`.
-1. Edit `.env` with your values.
+2. (optional) Edit `.env` to set any values you do not with to be prompted for during execution
 3. Run `npm start`.
