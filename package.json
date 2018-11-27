@@ -1,6 +1,6 @@
 {
   "name": "reports",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple script to generate a payout report for users of Jira's Tempo plugin.",
   "main": "index.js",
   "repository": {
